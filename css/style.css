@@ -285,7 +285,7 @@ p.btn:hover {
 }
 
 footer {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   bottom: 0;
   left: 0;
@@ -293,6 +293,7 @@ footer {
   padding: 1rem 0;
   display: flex;
   justify-content: center;
+  margin-bottom: auto;
 }
 
 [data-theme="darkTheme"] footer a {
