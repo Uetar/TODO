@@ -148,10 +148,10 @@ function addTodoElem(todoText, isNew = true) {
    todoEl.id = "" + todoId;
    todoEl.innerHTML = `
    <button class=" btn todo__check">
-      <img src="/images/icon-check.svg" alt="" class="" />
+      <img src="./images/icon-check.svg" alt="" class="" />
    </button>
    <p>${todoText}</p>
-   <button class="btn todo__delete"><img src="/images/icon-cross.svg" alt=""/></button>
+   <button class="btn todo__delete"><img src="./images/icon-cross.svg" alt=""/></button>
    `;
 
 

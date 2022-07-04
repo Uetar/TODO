@@ -83,7 +83,7 @@ p.btn:hover {
 .main__container {
   width: 100vw;
   min-height: 100vh;
-  background-image: url("/images/bg-desktop-light.jpg");
+  background-image: url("../images/bg-desktop-light.jpg");
   background-color: #fafafa;
   background-repeat: no-repeat;
   background-size: contain;
@@ -94,7 +94,7 @@ p.btn:hover {
 }
 
 [data-theme="darkTheme"] .main__container {
-  background: url("/images/bg-desktop-dark.jpg");
+  background: url("../images/bg-desktop-dark.jpg");
   background-color: #171823;
   background-repeat: no-repeat;
   background-size: contain;
@@ -346,14 +346,14 @@ footer {
   }
   .main__container {
     padding: 0 15%;
-    background: url("/images/bg-mobile-light.jpg");
+    background: url("../images/bg-mobile-light.jpg");
     background-color: #fafafa;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   [data-theme="darkTheme"] .main__container {
-    background: url("/images/bg-mobile-dark.jpg");
+    background: url("../images/bg-mobile-dark.jpg");
     background-color: #171823;
     background-repeat: no-repeat;
     background-size: contain;
