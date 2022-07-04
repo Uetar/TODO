@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
-
+* {
+  box-sizing: border-box;
+}
 html,
 body,
 div,
@@ -21,10 +23,6 @@ section {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 html {
@@ -381,9 +379,8 @@ footer {
     border: 1px solid #393a4b;
   }
   footer {
-    margin: 2rem 0;
+    margin-bottom: 100rem;
     text-align: center;
     line-height: 3rem;
-    padding-bottom: 30px;
   }
 }
