@@ -19,6 +19,8 @@ btnClear.addEventListener('click', () => {
          removeElem(elem.DOMelem);
       });
    }
+
+   todoArray =  todoArray.filter((obj) => obj.active !== false)
 });
 
 themeSwitch.addEventListener('click', themeSwitcher);
@@ -55,7 +57,7 @@ function filterCallback(e) {
    
 }
 
- function refreshFilters() {
+ const refreshFilters = () => {
    if (currentFilter === 'completed') {
       completedCB();
   } else if (currentFilter === 'all') {
@@ -179,6 +181,7 @@ function addTodoElem(todoText, isNew = true) {
    const todo_delete = todoEl.querySelector(".todo__delete");
 
    todo_delete.addEventListener("click", function()  {
+      todoArray = todoArray.filter((element) => element.id !== parseInt(todoEl.id, 10))
       removeElem(todoEl);
    });
 
