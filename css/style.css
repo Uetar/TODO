@@ -83,7 +83,7 @@ p.btn:hover {
 .main__container {
   width: 100vw;
   min-height: 100vh;
-  background: url("/images/bg-desktop-light.jpg");
+  background-image: url("/images/bg-desktop-light.jpg");
   background-color: #fafafa;
   background-repeat: no-repeat;
   background-size: contain;
